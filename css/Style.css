@@ -51,7 +51,7 @@ header nav ul li a:hover {
 	color: orange;
 }
 footer{
-	background-color: rgba(77, 194, 123, 1.0);
+	background-color:#ffffff ;
 }
 footer h3{
 	color: black;
@@ -121,7 +121,7 @@ border: solid
 }
 .formulario{
 	grid-area:formulario;
-	background-color:  rgba(77, 194, 123, 1);
+	background-color:  #ffffff;
 	padding: 20px 0;
 	display: flex;
 }
@@ -156,6 +156,14 @@ border: solid
 	width: 80vw;
 	border: solid;
 	margin: 10px auto;
+}
+.linear-gradient{
+	background: linear-gradient(to top, whitesmoke, rgba(77, 194, 123, 1.0));
+}
+.scale:hover{
+	transform:scaleX(0.9);
+	cursor: pointer;
+	transition: 2s;
 }
 @media (min-width: 768px){
 
