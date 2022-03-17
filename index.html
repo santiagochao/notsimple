@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Not Simple.</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<!-- Inicia nav -->
+		<div class="encabezado__box--white">
+         <p class="text-center">
+         	30% de descuento en tu segunda compra
+         </p>
+		</div>
+		<nav>
+			<a href="index.html">
+			<img src="img/logo.png" alt="logo de notsimple." class="logo__img--fluid">
+		    </a>
+
+		    <ul>
+		    	<li><a href="index.html">Inicio</a></li>
+		    	<li><a href="html/nosotros.html">Nosotros</a></li>
+		    	<li><a href="html/nuestrosproductos.html">Nuestros Productos</a></li>
+		    	<li><a href="html/contacto.html">Contacto</a></li>
+		    	<li><a href="html/promociones.html">Promociones</a></li>
+		    	<li><a href="html/Nuestrasredes.html">Nuestras Redes</a></li>
+		    </ul>
+		    </nav>
+           <!-- Cierra nav -->
+</header>
+
+	<!-- Inicia contenido principal -->
+
+	<main>
+		<div>
+			<img src="img/zapatillasmenu.jpg" alt="zapatillas"
+			class="header__img--fluid">
+		</div>
+		<h2 class="text-center producto__titulo--xl">Productos</h2>
+		<div class="productos__imagen contenedorProductos">
+      		<img src="img/producto3s.jpg" alt="producto 1" class="imagen1">
+      		<img src="img/producto3s.jpg" alt="producto 2" class="imagen2">
+      		<img src="img/producto3s.jpg" alt="producto 3" class="imagen3">
+      		<img src="img/producto3s.jpg" alt="producto 4" class="imagen4">
+      	</div>
+
+		</section>
+		<section class="text-center formulario">
+			<div>
+				<h2 class="text-center contacto__titulo--l">Contacto</h2>
+				<form action="envio.php" method="post">
+					<fieldset class="formulario__datosPersonales">
+						<legend>Datos Personales</legend>
+						<label for="Nombre" class="datosFormulario">Nombre y Apellido</label>
+						<input type="text" placeholder="santiago chao" name="Nombre" id="Nombre">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email">
+						<label for="telefono">Telefono</label>
+						<input type="telefono"> 
+					</fieldset>
+					<fieldset>
+						<legend>Info del pedido</legend>
+						<label for="zapatillas">zapatillas</label>
+						<input type="checkbox" value="zapatillas" id="zapatillas" name="zapatillas">
+						<br>
+						<label for="zapatillas">zapatillas 2</label>
+						<input type="checkbox" value="zapatillas" id="zapatillas" name="zapatillas">
+						<br>
+						<label for="zapatillas">zapatillas 3</label>
+						<input type="checkbox" value="zapatillas" id="zapatillas" name="zapatillas">
+					</fieldset>
+						<fieldset>
+						<legend>Info del pedido</legend>
+						<label for="domicilio">Envios a domicilio</label>
+						<input type="radio" name="envio"value="domicilio" id="domicilio" >
+						<br>
+						<label for="local"> Retiro en local</label>
+						<input type="radio" name="envio"value="local" id="local" >
+						<br>
+						<select name="localidad" id="localidad">
+						<option value="cordoba">ciudad de cordoba</option>
+							
+						</select>
+						</fieldset>
+						<br><br>
+						<label for="mensaje">Deja tu mensaje</label><br>
+						<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+						<br>
+						<input type="submit" value="enviar">
+						<input type="reset" value="cancelar">
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<!-- cierra main -->
+
+	<footer class="pie">
+		<h3 class="text-center pie__titulo--md">Seguinos en nustras redes </h3>
+		<a href="https://instagram.com" target="blank">
+			<img src="img/logoinstagram.png" alt="Seguinos en instagram" class="instagram__icon--sm">
+		</a>
+		<a href="https://facebook.com" target="blank">
+				<img src="img/logofacebook.png" alt="Seguinos en facebook"class="footer__icon--sm">
+		</a>
+	</footer>
+</body>
+</html>
